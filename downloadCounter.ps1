@@ -1,7 +1,6 @@
 #To test manually
 #powershell -ExecutionPolicy Bypass -File ".\downloadCounter.ps1"
 
-```powershell
 # ============================================
 # Downloads & Recycle Bin Counter
 # Counts files in Downloads and items in the
@@ -71,4 +70,3 @@ $notification.ShowBalloonTip(5000)
 Start-Sleep -Seconds 6
 
 $notification.Dispose()
-```
