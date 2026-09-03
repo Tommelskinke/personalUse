@@ -4,7 +4,7 @@ Scripts to simplify and/or improve my experience while using my personal compute
 # jobFinder
 Upload instructionsAI.txt and master.pdf to ChatGPT
 
-Paste the job description
+Paste the job description or link to the job descriptions (like https://www.finn.no/job/ad/123456789)
 
 ## Convert pdf to .txt
 ´´´
