@@ -7,7 +7,7 @@ Upload instructionsAI.txt and master.pdf to ChatGPT
 Paste the job description or link to the job descriptions (like https://www.finn.no/job/ad/123456789)
 
 ## Convert pdf to .txt
-´´´
+```
 sudo apt install poppler-utils
 pdftotext master.pdf master.txt
-´´´
+```
