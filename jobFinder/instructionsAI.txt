@@ -178,6 +178,11 @@ For every job description, follow this order:
 8. **LaTeX Replacement Sections**
 9. **Final Validation**
 
+# Title - Choose or sugges
+
+The resume currently shows "\textit{Developer\\Cybersikkerhet}".
+Keep only one of these titles. 
+If there is another title, more fitting than these two, you may suggest it and add it to the final file.
 
 # SKILLS SECTION — HARD LIMITS
 
@@ -185,24 +190,27 @@ The resume has a **hard maximum of 20 skills in total**.
 
 This means the combined number of skills in:
 
-* `Nøkkelkompetanse`
+* `Ferdigheter`
 * `NTNU`
 
 must never exceed **20 skills altogether**.
 
 The distribution does not need to be equal. For example:
 
-* 15 Nøkkelkompetanse + 5 NTNU = 20
-* 10 Nøkkelkompetanse + 10 NTNU = 20
-* 12 Nøkkelkompetanse + 8 NTNU = 20
+* 15 Ferdigheter + 5 NTNU = 20
+* 10 Ferdigheter + 10 NTNU = 20
+* 12 Ferdigheter + 8 NTNU = 20
+* 10 Ferdigheter + 3 NTNU = 13
 
 Choose the distribution based on what is most relevant to the job.
+
+You may choose fewer than 20 - like 15 or 10 - but not more than 20.
 
 **Never exceed 20 skills total.**
 
 ---
 
-## NØKKELKOMPETANSE
+## Ferdigheter
 
 A maximum of **3 skills per line** is allowed.
 
@@ -255,7 +263,7 @@ Do not add a skill simply because it appears in the job description unless my ma
 
 Do not count the same skill twice.
 
-If essentially the same skill appears in both Nøkkelkompetanse and NTNU, treat it as one skill and place it in the category where it is most appropriate.
+If essentially the same skill appears in both Ferdigheter and NTNU, treat it as one skill and place it in the category where it is most appropriate.
 
 For example:
 
@@ -272,8 +280,8 @@ should not be treated as two separate skills.
 
 Before presenting the changes, verify all of the following:
 
-* Total skills across Nøkkelkompetanse + NTNU: **≤ 20**
-* Nøkkelkompetanse: **≤ 2 skills per line**
+* Total skills across Ferdigheter + NTNU: **≤ 20**
+* Ferdigheter: **≤ 2 skills per line**
 * NTNU: **≤ 1 skill per line**
 
 If there are more than 20 skills, remove the lowest-priority skills before presenting the final LaTeX.
@@ -447,6 +455,50 @@ Do not invent experience.
 
 If a bullet or section is irrelevant to the job, recommend removing it rather than replacing it with invented content.
 
+Not all sections, bullets, skills, projects, or text from the master resume should automatically appear in the tailored final version.
+
+For each job description:
+
+* Include **only sections and content that are relevant to the specific job**.
+* If an existing section is not relevant to the posted job description, **do not include it in the final tailored version**.
+* If only part of a section is relevant, keep the relevant content and remove the unrelated bullets or text.
+* Do not force every master-resume section into the tailored resume simply to preserve completeness.
+* Relevance to the specific job takes priority over retaining all existing content.
+* Removing irrelevant content is preferred over filling space with weak or unrelated material.
+* Never replace removed content with invented experience or qualifications.
+* The final tailored resume should therefore be a **job-specific selection and optimization of the master resume**, not a copy of the entire master resume.
+
+### FINAL VERSION RULE
+
+Before presenting the final LaTeX changes, evaluate every section against the posted job description.
+
+**If relevant → include or tailor it.**
+
+**If partially relevant → retain only the relevant content and tailor where appropriate.**
+
+**If not relevant → omit it from the final version.**
+
+This applies to:
+
+* Professional Summary
+* Work Experience
+* Projects
+* Skills
+* Education
+* Certifications
+* Other resume sections
+
+The goal is:
+
+**Job relevance → ATS alignment → concise content**
+
+while preserving:
+
+**Existing LaTeX structure → formatting → visual design**
+
+The final version should contain only the content that strengthens the application for the specific posted job.
+
+
 Example:
 
 ```text
@@ -569,6 +621,18 @@ Do not:
 * Modify the document preamble
 
 unless I explicitly ask for a formatting change.
+
+---
+
+## YELLOW HIGHLIGHTING
+
+Use `\colorbox{yellow}{...}` **only for the most important words or short keyword phrases** that deserve visual emphasis.
+
+* Use highlighting sparingly and intentionally.
+* **Never use `\colorbox{yellow}` more than 6 times in the entire final resume.**
+* Prioritize the most important ATS keywords, technologies, qualifications, or role-specific terms.
+* Do not highlight full sentences, bullets, or large sections.
+* If more than 6 potential highlights exist, select only the **6 most important** ones based on relevance to the job description.
 
 ---
 
