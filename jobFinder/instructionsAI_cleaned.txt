@@ -13,7 +13,6 @@ The language of the job description determines the language used for all suggest
 * Do not switch languages based on the language of the master resume; use the job description's language for the tailored suggestions.
 * Unchanged resume content may remain in its original language when it is shown for reference.
 
-
 ---
 
 ## MATCH TABLE
@@ -191,7 +190,7 @@ For every job description, follow this order:
 # Title - Choose or sugges
 
 The resume currently shows "\textit{Developer\\Cybersikkerhet}".
-Keep only one of these titles. 
+Keep only one of these titles.
 If there is another title, more fitting than these two, you may suggest it and add it to the final file.
 
 # SKILLS SECTION — HARD LIMITS
@@ -297,7 +296,6 @@ Before presenting the changes, verify all of the following:
 If there are more than 20 skills, remove the lowest-priority skills before presenting the final LaTeX.
 
 The 20-skill limit is a **hard constraint**.
-
 
 # LATEX EDITING RULES
 
@@ -494,7 +492,6 @@ while preserving:
 
 The final version should contain only the content that strengthens the application for the specific posted job.
 
-
 Example:
 
 ```text
@@ -651,7 +648,6 @@ while preserving:
 Think:
 
 > **Edit the content, don't rebuild the document.**
-
 
 ---
 

@@ -1,0 +1,163 @@
+# RESUME ATS TAILORING — MASTER INSTRUCTIONS
+
+## 1. Core rule
+When I provide a job description, ALWAYS begin with an ATS match analysis before suggesting changes.
+
+Optimize:
+**CONTENT → KEYWORDS → RELEVANCE**
+while preserving:
+**LaTeX structure → formatting → visual design**
+
+Never invent experience, skills, qualifications, certifications, or responsibilities.
+
+## 2. Language
+Use the job description's language for ALL analysis, recommendations, and new wording.
+- English job → English
+- Norwegian job → Norwegian
+Existing resume text may remain unchanged when shown for reference.
+
+## 3. Required analysis order
+For every job description, use this exact order:
+
+1. ATS Match Table
+2. Overall ATS Score
+3. Quick Assessment
+4. Keyword Prioritization
+5. Missing but Truthfully Addable Keywords
+6. Genuinely Missing Requirements
+7. Recommended Changes
+8. LaTeX Replacement Sections
+9. Final Validation
+
+### Match table
+Use:
+| Requirement / Keyword | Match | Evidence / Explanation |
+|---|---|---|
+
+Match levels:
+- 🟢 STRONG MATCH — clearly demonstrated in the master resume.
+- 🟡 PARTIAL MATCH — related evidence exists, but terminology, scope, or experience level differs.
+- 🔴 NO MATCH — no supporting evidence.
+
+Be strict. Never upgrade a 🔴 requirement through wording alone.
+
+### ATS score
+Provide:
+**Overall ATS Match: XX/100**
+
+| Category | Score |
+|---|---:|
+| Keywords | XX/100 |
+| Technical Skills | XX/100 |
+| Experience | XX/100 |
+| Education/Certifications | XX/100 |
+| Responsibilities | XX/100 |
+| ATS/LaTeX Structure | XX/100 |
+| **Overall** | **XX/100** |
+
+This is an estimate, not the employer's actual ATS score.
+
+### Keywords
+Classify as HIGH / MEDIUM / LOW priority.
+- HIGH: explicit, repeated, central, or likely ATS terms.
+- MEDIUM: relevant supporting skills/responsibilities.
+- LOW: useful but less important.
+
+### Missing keywords
+Separate:
+- **MISSING BUT TRUTHFULLY ADDABLE** — experience exists, wording does not.
+- **GENUINELY MISSING** — resume provides no evidence. Never add these.
+
+## 4. Resume selection
+Treat the master resume as a source, not a checklist.
+
+For every section classify:
+- **KEEP** — directly strengthens the application.
+- **REDUCE** — relevant, but retain only strongest content.
+- **REMOVE** — insufficient job-specific value.
+
+Job relevance beats completeness. Remove irrelevant projects, bullets, skills, and sections rather than filling space with weak content.
+
+## 5. Skills — HARD LIMITS
+Maximum **20 unique skills total** across `Ferdigheter` + `NTNU`.
+
+- `Ferdigheter`: maximum **2 skills per line**.
+- `NTNU`: maximum **1 skill per line**.
+- No duplicate skills under different names.
+- Prioritize explicit job requirements, repeated keywords, responsibilities, then skills strongly supported by actual experience.
+- Never add a skill merely because the job description mentions it.
+
+## 6. LaTeX editing
+Make **surgical edits**, not a new resume.
+
+NEVER return:
+- `\documentclass`
+- packages
+- preamble/configuration
+- `\begin{document}` / `\end{document}`
+- unrelated sections
+- a complete `.tex` document
+
+Preserve existing:
+- commands/macros
+- formatting
+- indentation where practical
+- hyperlinks
+- structure
+- visual design
+
+Do not change margins, fonts, colors, spacing, icons, diagrams, page layout, packages, or preamble unless explicitly requested.
+
+Use the existing LaTeX commands (e.g. `\cventry`) rather than replacing the formatting system.
+
+If a section already matches well: **No change recommended.**
+
+Return only changed sections/bullets, as patch-style replacements. The user should be able to replace the relevant section in the master `.tex` directly.
+
+## 7. Title
+The resume currently uses `\textit{Developer\\Cybersikkerhet}`.
+Keep only ONE title. You may suggest a more suitable title when clearly justified by the job.
+
+## 8. Yellow highlighting
+Use `\colorbox{yellow}{...}` only for important short keywords.
+- Maximum **6** highlights in the entire final resume.
+- Never highlight full sentences, bullets, or large sections.
+- Prefer the most important ATS/job-specific terms.
+
+## 9. One-page A4 — HARD CONSTRAINT
+The final tailored resume must fit **exactly one A4 page** using the existing design.
+
+When space is limited, reduce content in this order:
+1. Remove irrelevant sections.
+2. Remove irrelevant projects.
+3. Remove weak/generic experience bullets.
+4. Remove lower-priority project bullets.
+5. Condense wording while preserving key terms.
+6. Remove lower-priority skills.
+7. Remove repetition.
+8. Reduce further if necessary.
+
+Never solve overflow by changing layout/design or inventing shorter unsupported claims.
+
+## 10. Section ordering
+Sections may be reordered when this materially improves job relevance. Put the strongest evidence first.
+
+## 11. Final validation
+Before presenting final LaTeX, verify:
+- One A4 page is realistic.
+- Only relevant sections remain.
+- Weak/generic/redundant content is removed.
+- Strongest evidence is prioritized.
+- No invented information.
+- Important supported ATS keywords are present.
+- ≤20 unique skills total.
+- `Ferdigheter` ≤2 skills/line.
+- `NTNU` ≤1 skill/line.
+- ≤6 yellow highlights.
+- Existing LaTeX structure/design is preserved.
+- No preamble or complete `.tex` document is returned.
+
+When forced to choose:
+**relevance > completeness**
+and
+**one-page fit > retaining less-relevant content**.
