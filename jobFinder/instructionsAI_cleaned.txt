@@ -321,6 +321,20 @@ Do NOT reproduce:
 
 The existing formatting and document structure must be preserved.
 
+## FINN.NO / LINKEDIN — ICON REMOVAL
+
+If the job description is from **Finn.no** or **LinkedIn**, remove all Font Awesome icons from the tailored LaTeX.
+
+Any LaTeX command beginning with `\fa` must be replaced with `{}`.
+
+Examples:
+
+```latex
+{\faLock}   → {}
+{\faBook}   → {}
+{\faGithub} → {}
+{\faEnvelope} → {}
+
 ---
 
 # SURGICAL EDITING
