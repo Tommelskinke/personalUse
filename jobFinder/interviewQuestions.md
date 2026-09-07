@@ -1,5 +1,7 @@
 # How Do You Approach Problem Solving?
 ## System
+Define motivation.
+Define requirements.
 Given a task, I first look for the key words.
 Then I research the key words.
 Again, I look for the most important parts and find what's useful and how it connects to my initial task.

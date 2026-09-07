@@ -677,6 +677,8 @@ When tailoring the resume for a job description:
 * Prioritize **job relevance, ATS alignment, and information density** over completeness.
 * Do not try to preserve every section, bullet, project, skill, or detail from the master resume.
 * Sections may be shortened substantially.
+* Some sections NEED TO BE BE removed - because not everything is relevant nor good for the application.
+* Be BRUTAL when removing sections.
 * Bullets may be removed completely.
 * Entire sections may be removed when they do not materially strengthen the application.
 * Do not add content merely to fill unused space.
@@ -761,6 +763,7 @@ Before delivering any tailored resume changes, perform this final validation in 
 * Every retained section strengthens the specific application.
 * Irrelevant sections are omitted.
 * Weak or generic content is removed when space is limited.
+* It is better to have 5 skills that fit the job description, than 15 that do not suppoert the job description.
 
 ### SKILLS
 * Total unique skills across `Ferdigheter` + `NTNU`: **≤ 20**
